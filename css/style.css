@@ -1,0 +1,212 @@
+@font-face {
+    font-family: sstbold;
+    src: url(../fonts/sst-arabic-bold.ttf);
+}
+@font-face{
+    font-family: sstmedium;
+    src: url(../fonts/sst-arabic-medium.ttf);
+}
+@font-face{
+    font-family: sstroman;
+    src: url(../fonts/sst-arabic-roman.ttf);
+}
+body{
+    direction: rtl;
+    font-family: sstroman !important;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sstbold !important;
+}
+h3{
+    font-size: 35px !important;
+    margin-bottom: 21px !important;
+}
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    color: #1982DD !important;
+}
+p{
+    color: #767676;
+}
+/* contact navbar */
+.contact-ways{
+    align-items: center;
+    font-size: 14px;
+}
+.contact-ways a{
+    color: #000 !important;
+}
+.contact-ways a:hover{
+    color: #1982DD !important;
+}
+.leave-message{
+    background:rgba(25, 130, 221, 0.1);
+    border-radius: 12px;
+    padding: 6px 13px;
+    text-align: center;
+}
+.leave-message a{
+    color: #1982DD !important;
+}
+/* navbar */
+.navbar-without-cont{
+    background: #f7fbfe;
+}
+.navbar-brand{
+    margin-right: 0 !important;
+}
+.navbar-nav .nav-link{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+@media(max-width:1024px){
+    .navbar-nav .nav-link{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        font-size: 15px !important;
+    }
+    .navbar-brand img{
+        width: 230px;
+    }
+
+}
+@media(max-width:425px){
+    .leave-message{
+        width: 80%;
+    }
+    .navbar-brand img{
+        width: 200px;
+    }
+}
+/* home-secti.home-sectiontion */
+.home-section{
+    background: #F7FBFE ;   
+}
+.home-content{
+    padding-top: 100px;
+}
+.home-section h1{
+    padding: 20px 0;
+    font-size: 40px;
+}
+.home-section p{
+    line-height: 1.8;
+    font-size: 19px;
+}
+.ask-ur-services{
+    background: #1982DD;
+    color: #fff;
+    border: none;
+    outline: none !important;
+    padding: 20px 50px;
+    border-radius: 13px;
+    margin-top: 10px;
+    box-shadow: 0px 3px 40px #1982DD80;
+    transition: opacity 0.5s;
+}
+.ask-ur-servicesn:hover{
+    opacity: 0.8;
+}
+.image-bg{
+    width: 100%;
+    background: #F7FBFE url(../images/bg-home.svg) 0% 0% no-repeat padding-box; 
+    background-position: center bottom; 
+}
+/* our services */
+.headr-sec h5{
+    color: #1982DD;
+}
+.headr-sec h2{
+    margin-bottom: 60px;
+    font-size: 35px !important;
+}
+.headr-sec h3{
+    font-size: 30px !important;
+    margin-bottom: 10px;
+} 
+.iamge-col-left{
+    text-align: left;
+}
+.iamge-col-left img ,
+.iamge-col-right img{
+    width: 85% ;
+}
+@media(max-width:992px){
+    .iamge-col-right  ,
+    .iamge-col-left {
+        text-align: center !important;
+    }
+    .iamge-col-left img ,
+    .iamge-col-right img{
+        width: 100% ;
+    }
+}
+/* facebook */
+.bg-section{
+    background: #F7FBFE 0% 0% no-repeat padding-box;
+}
+
+.facebook h6{
+    font-size: 18px;
+}
+.facebook p{
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+.iamge-col-right{
+    text-align: right;
+} 
+
+/* contact us section */
+#contact-us{
+    margin-top: 70px;
+}
+.contact-row{
+     background: #252A38;
+     font-size: 13px;
+     color: #fff;
+     border-radius: 40px;
+     align-items: center;
+}
+.contact-row a{
+    color: #fff !important;
+}
+.contact-row a:hover{
+    color: #1982DD !important;
+}
+.contact-row p{
+    color: #fff;
+}
+.contact-img img{
+    margin-left: 15px;
+}
+/*  ////////////  */
+
+
+.whats-fixed a {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    left: 10px;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 0 0 #999;
+    background-color: #25d366;
+}
+.whats-fixed a i {
+    padding-right: 0px!important;
+    font-size: 30px;
+    padding-top: 14px;
+}
